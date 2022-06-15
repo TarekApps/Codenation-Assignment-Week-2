@@ -26,5 +26,8 @@ li a {
 #Headings {
   color: #76b900;
   text-align: center;
-  font-size: x-large;
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
 }
