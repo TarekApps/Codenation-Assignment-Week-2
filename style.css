@@ -22,3 +22,9 @@ li a {
   text-decoration: none;
   color: rgba(161, 161, 161, 255);
 }
+
+#Headings {
+  color: #76b900;
+  text-align: center;
+  font-size: x-large;
+}
