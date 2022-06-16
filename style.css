@@ -32,17 +32,21 @@ li a {
   line-height: 40px;
 }
 
-.images {
+.images-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.image {
+  margin: 1px 15px;
 }
 
 .whiteTile {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-color: white;
   height: 100px;
   width: 295px;
-  position: absolute;
-  box-shadow: 1px 1px 5px 6px #ccc;
+  /* position: absolute;
+  box-shadow: 1px 1px 5px 6px #ccc; */
 }
