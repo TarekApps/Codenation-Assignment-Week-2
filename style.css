@@ -47,6 +47,22 @@ li a {
   background-color: white;
   height: 100px;
   width: 295px;
-  /* position: absolute;
-  box-shadow: 1px 1px 5px 6px #ccc; */
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 19%), 0 2px 6px 0 rgb(0 0 0 / 19%);
+}
+
+.textTile {
+  color: #76b900;
+  font-size: 18px;
+  line-height: 1.25em;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.textTileForP {
+  position: relative;
+  color: gray;
+  font-size: 16px;
+  bottom: 10px;
+  left: 10px;
+  line-height: 1.25em;
+  font-family: "Ropa Sans", sans-serif;
 }
