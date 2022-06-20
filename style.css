@@ -21,14 +21,6 @@ a {
   font-family: "Ropa Sans", sans-serif;
 }
 
-/* .leftNav {
-  float: left;
-} */
-
-/* li {
-  float: left;
-} */
-
 .navli {
   float: left;
   color: #747474;
@@ -62,7 +54,6 @@ a {
 }
 
 .whiteTile {
-  /* box-sizing: border-box; */
   background-color: white;
   height: 100px;
   width: 295px;
@@ -87,7 +78,6 @@ a {
 }
 
 .whiteTileBig {
-  /* box-sizing: border-box; */
   background-color: white;
   height: 200px;
   width: 295px;
