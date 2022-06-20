@@ -182,12 +182,9 @@ a {
   font-family: "Ropa Sans", sans-serif;
   position: relative;
   bottom: 200px;
-  /* margin: 1px 1100px; */
   left: 1200px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  text-decoration: none;
 }
 
 .whiteBG {
@@ -200,23 +197,35 @@ a {
   bottom: 190px;
   left: 1200px;
 }
-/* margin: 1px 1220px; */
 
-/* .furtherFooterList {
-  display: flex;
-  justify-content: space-around;
-  float: left;
-  color: #747474;
-  text-align: center;
-  padding: 14px 16px;
+.nvidiaFooterLogo {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.furtherFooterList {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  line-height: 24px;
   text-decoration: none;
-  font-size: 17px;
-  margin: 0;
-  padding: 0;
-} */
+  color: #666;
+  font-family: "Ropa Sans", sans-serif;
+}
 
 .footerExt {
   position: relative;
   right: 600px;
   margin: auto 200px;
+}
+
+.copyright {
+  position: relative;
+  left: 80px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  font-family: "Ropa Sans", sans-serif;
 }
